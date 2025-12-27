@@ -53,9 +53,9 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 --------------------------------------------------------------------------------------------------------------
 # EXAMPLES
 <img width="1024" height="1024" alt="Building_1024x1024" src="https://github.com/user-attachments/assets/35fe23b4-16fb-4f15-b55b-9c818ab1b3cd" />
-![output_building](https://github.com/user-attachments/assets/aeb31c50-6b9a-4157-95ca-1e1e96edd49c)
+
+![output_building](https://github.com/user-attachments/assets/6fa12f70-84aa-4da5-bf91-7274db279e02)
 
 -----------------------------------------------
-
 
 
