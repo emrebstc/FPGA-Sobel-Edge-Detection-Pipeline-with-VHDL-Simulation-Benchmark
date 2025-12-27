@@ -1,6 +1,6 @@
 A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 windowing pipeline with line buffers written for xc7a100tcsg324-1. Also includes a simulation benchmark.
 
-#Usage:
+# Usage:
 1. Add all .vhd files to your Vivado project.
 
 2. Run the tb_image_processor testbench for one time, it will generate .sim files in your project foler.
@@ -14,12 +14,16 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 6. Run the tb_image_processor testbench again.
   
 7. Your output_image_data.txt will be generated in "EdgeDetectionProcessor/EdgeDetectionProcessor.sim/sim_1/behav/xsim/"
+
+8. Delete last 200 line on your output_image_data.txt
  
-8. Copy and paste that .txt file to your python path.
+9. Copy and paste that .txt file to your python path.
   
-9. Run txt_to_rgb.py it will generate "image_processed.jpg" in your python path.
+10. Run txt_to_rgb.py it will generate "image_processed.jpg" in your python path.
   
-10. Done
+11. Done
+
+# Note: if you want to generate different resolutions like 256x256 or something else just edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution.
 
 # The design consists of three main stages:
 1)RGB to Grayscale Converter: Converts 24-bit RGB data into 8-bit luminance values.
