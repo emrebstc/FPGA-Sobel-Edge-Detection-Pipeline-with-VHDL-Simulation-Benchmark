@@ -23,7 +23,7 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
   
 11. Done
 
-# Note: if you want to generate different resolutions like 256x256 or something else just edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution.
+*Note: if you want to generate different resolutions like 256x256 or something else just edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution.*
 
 # The design consists of three main stages:
 1)RGB to Grayscale Converter: Converts 24-bit RGB data into 8-bit luminance values.
