@@ -1,5 +1,6 @@
 A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 windowing pipeline with line buffers written for xc7a100tcsg324-1. Also includes a simulation benchmark.
 
+--------------------------------------------------------------------------------------------------------------
 # Usage:
 1. Add all .vhd files to your Vivado project.
 
@@ -47,6 +48,7 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 -Simulated Frequency	100 MHz
 
 *Achieves a throughput of 1 pixel per clock cycle.*
-----------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
 
 
