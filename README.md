@@ -10,7 +10,6 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 
 ------------------------------------------------------------------------------------------------------------
 # The following results were obtained from the Vivado VHDL simulation for a 1024x1024 (1MP) image:
--Image Resolution	1024 x 1024 pixels
 
 -Total Processed Pixels	1,048,576
 
