@@ -6,14 +6,19 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 
 2)Line Buffer (3x3 Window Generator): Stores image rows to create the 3x3 pixel matrix required for the Sobel operator.
 
-3)Sobel Core: Computes horizontal ($G_x$) and vertical ($G_y$) gradients using convolution kernels and applies a configurable threshold to detect edges.
+3)Sobel Core: Computes horizontal Gx and vertical Gy gradients using convolution kernels and applies a configurable threshold to detect edges.
 
 # The following results were obtained from the Vivado VHDL simulation for a 1024x1024 (1MP) image:
 -Image Resolution	1024 x 1024 pixels
+
 -Total Processed Pixels	1,048,576
+
 -Total Clock Cycles	1,048,781
+
 -Pipeline Latency	205 Cycles
+
 -Efficiency (CPI)	~1.0001 Cycles Per Pixel
+
 -Simulated Frequency	100 MHz
 
 Achieves a throughput of 1 pixel per clock cycle.
