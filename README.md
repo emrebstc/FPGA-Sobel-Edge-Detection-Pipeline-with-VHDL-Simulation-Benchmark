@@ -16,9 +16,9 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 
 -Total Clock Cycles	1,048,781
 
--Pipeline Latency	205 Cycles
+-Pipeline Latency 205 Cycles
 
--Efficiency (CPI)	~1.0001 Cycles Per Pixel
+-Efficiency	~1.0001 Cycles Per Pixel
 
 -Simulated Frequency	100 MHz
 
