@@ -51,5 +51,4 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 *Note: If you want to generate different resolutions like 256x256 or something else just edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution.*
 
 --------------------------------------------------------------------------------------------------------------
-
-
+# EXAMPLES:
