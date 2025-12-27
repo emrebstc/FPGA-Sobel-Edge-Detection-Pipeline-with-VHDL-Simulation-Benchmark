@@ -3,7 +3,9 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 
 # The design consists of three main stages:
 1)RGB to Grayscale Converter: Converts 24-bit RGB data into 8-bit luminance values.
+
 2)Line Buffer (3x3 Window Generator): Stores image rows to create the 3x3 pixel matrix required for the Sobel operator.
+
 3)Sobel Core: Computes horizontal ($G_x$) and vertical ($G_y$) gradients using convolution kernels and applies a configurable threshold to detect edges.
 
 # The following results were obtained from the Vivado VHDL simulation for a 1024x1024 (1MP) image:
