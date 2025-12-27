@@ -21,6 +21,8 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
 
 -Simulated Frequency	100 MHz
 
-Achieves a throughput of 1 pixel per clock cycle.
-Efficient data flow using custom Line Buffers for 3x3 window generation.
-Automated simulation testbench that measures total clock cycles, latency, and pixel count.
+$Achieves a throughput of 1 pixel per clock cycle.$
+
+$Efficient data flow using custom Line Buffers for 3x3 window generation.$
+
+$Automated simulation testbench that measures total clock cycles, latency, and pixel count.$
