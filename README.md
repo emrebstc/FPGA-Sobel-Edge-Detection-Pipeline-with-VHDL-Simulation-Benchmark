@@ -48,7 +48,7 @@ A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 wind
   
 11. Done
 
-*Note: If you want to generate different resolutions like 256x256 or something else edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution. Also edit "txt_to_rgb.py"*
+*Note: Before creating each new image, delete the output_image_data.txt file from the project folder or rename it to something like output_image_dataX.txt in the test bench code. If you want to generate different resolutions like 256x256 or something else edit "line_buffer.vhd" and change 1023 value to 255 for 256x256 resolution. Also edit "txt_to_rgb.py"*
 
 --------------------------------------------------------------------------------------------------------------
 # EXAMPLES
