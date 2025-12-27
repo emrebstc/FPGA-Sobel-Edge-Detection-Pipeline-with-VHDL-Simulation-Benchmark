@@ -1,4 +1,4 @@
-A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 windowing pipeline with line buffers written for xc7a100tcsg324-1. Also includes a simulation benchmark.
+A VHDL implementation of the Sobel edge detection algorithm featuring a 3x3 windowing pipeline with line buffers written for xc7a100tcsg324-1 in Vivado 2025. Also includes a simulation benchmark.
 
 --------------------------------------------------------------------------------------------------------------
 # The design consists of three main stages:
